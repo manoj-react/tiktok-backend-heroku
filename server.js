@@ -25,7 +25,7 @@ mongoose.connect(connection_url, {
   useUnifiedTopology: true,
 });
 //api endpoints
-app.get("/", (req, res) => res.status(200).send("hello Heroku"));
+app.get("/", (req, res) => res.status(200).send("Happy tiktok...!"));
 
 app.get("/v1/posts", (req, res) => res.status(200).send(Data));
 
